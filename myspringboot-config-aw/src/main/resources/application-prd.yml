@@ -1,0 +1,19 @@
+#debug=true
+debug: false
+#server.port=80
+#前缀相同的配置项，idea会自动进行归纳
+server:
+ port: 80
+ servlet:
+   context-path: /
+#idean对yml有良好支持可自动生成
+spring:
+  thymeleaf:
+    cache: false
+  mvc:
+    date-format: yyyy-MM-dd
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://166.87.93.124:3310/production
+    username: admin
+    password: 123!@#$
