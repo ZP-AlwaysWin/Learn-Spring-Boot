@@ -1,2 +1,2 @@
 # Learn-Spring-Boot
-提交SpringBoot Thymeleaf模版引擎入门
+SpringBoot Thymeleaf模版引擎入门
