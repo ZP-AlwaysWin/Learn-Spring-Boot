@@ -1,2 +1,2 @@
 # Learn-Spring-Boot
-提交Spring Boot Web常用配置
+Spring Boot Web常用配置的示例
