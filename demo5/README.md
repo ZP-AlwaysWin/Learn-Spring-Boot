@@ -1,10 +1,10 @@
 ## 一、Spring Boot 注入接口 @Autowired interface 自动装配
 
-**前言：@Service @Component @Configuration 注入方式相同**
+### **前言：@Service @Component @Configuration 注入方式相同**
 
-接口只有唯一一个实现类的注入方式
+**接口只有唯一一个实现类的注入方式**
 
-先创建一个接口VideoService
+**先创建一个接口VideoService**
 ```
 public interface VideoService {
 
@@ -12,7 +12,7 @@ public interface VideoService {
 
 }
 ```
-创建一个接口的实现类VideoServiceImpl，使用@Service注解
+**创建一个接口的实现类VideoServiceImpl，使用@Service注解**
 ```
 @Service
 public class VideoServiceImplA implements VideoService {
@@ -24,7 +24,7 @@ public class VideoServiceImplA implements VideoService {
 
 }
 ```
-在其他类中注入VideoService，此处以一个Controller类示例：
+**在其他类中注入VideoService，此处以一个Controller类示例：**
 
 ```
 @RestController
@@ -43,7 +43,7 @@ public class HomeController {
 ```
 
 
-具体注入详情如下（需添加spring-boot-starter-actutor）：
+**具体注入详情如下（需添加spring-boot-starter-actutor）：**
 
 ```
 <dependency>
@@ -55,7 +55,7 @@ public class HomeController {
 
 
 
-新增一个VideoService的实现类VideoServiceImplB：
+**新增一个VideoService的实现类VideoServiceImplB：**
 ```
 @Service
 public class VideoServiceImplB implements VideoService{
