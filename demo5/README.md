@@ -1,6 +1,7 @@
 ## 一、Spring Boot 注入接口 @Autowired interface 自动装配
 
 **前言：@Service @Component @Configuration 注入方式相同**
+
 接口只有唯一一个实现类的注入方式
 
 先创建一个接口VideoService
