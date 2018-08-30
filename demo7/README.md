@@ -6,11 +6,14 @@ Spring Boot中使用Spring-data-jps让数据访问更简单、更优雅
 ## 注意事项：
 
 1. 如果在使用Hibernate的时候，用annotation的话，提示Entity过时；
+
 **解决办法：**
+
 import javax.persistence.Entity;
 导入这个包，如果提示过期，你看看是不是jdk报出来的，jdk7是不包提示的
 
 2. 如果启动的时候报如下错误；
+
 **[异常信息]**
 
 `Error performing load command : org.hibernate.InstantiationException: No default constructor for entity:  : entity.User`
