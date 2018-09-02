@@ -14,4 +14,5 @@ Spring pring Boot中多数据源配置(一)：JdbcTemplate版本
 <img src="https://github.com/ZP-AlwaysWin/Learn-Spring-Boot/blob/master/spring-boot-photos/Spring%20pring%20Boot%E4%B8%AD%E5%A4%9A%E6%95%B0%E6%8D%AE%E6%BA%90%E9%85%8D%E7%BD%AE(%E4%B8%80)%EF%BC%9AJdbcTemplate%E7%89%88%E6%9C%AC1.png" />
 </div>
 @Primary
+
 @Primary配置了数据源为主数据源，当没有配置自动切换的package时默认使用该数据源进行数据处理操作。
