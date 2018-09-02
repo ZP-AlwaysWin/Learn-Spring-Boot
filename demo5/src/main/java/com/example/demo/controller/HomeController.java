@@ -16,7 +16,7 @@ public class HomeController {
     private VideoService videoService;
 
     @RequestMapping("/video")
-    public String videoName(){
+    public String videoName() {
         return videoService.getVideoName();
     }
 

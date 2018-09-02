@@ -15,7 +15,7 @@ public class HelloController {
 
     @RequestMapping("/hello")
     @ResponseBody
-    public String helloName(){
+    public String helloName() {
         return videoService.getVideoName();
     }
 }

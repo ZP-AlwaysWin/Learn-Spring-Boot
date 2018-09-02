@@ -8,11 +8,9 @@ import org.springframework.web.bind.annotation.RestController;
 import javax.annotation.Resource;
 
 /**
- *
  * @author 程序猿DD
  * @version 1.0.0
  * @blog http://blog.didispace.com
- *
  */
 @RestController
 public class HelloController {
@@ -22,15 +20,14 @@ public class HelloController {
 
 
     @RequestMapping("/config")
-    public String config(){
-        return blogProperties.getTest1().toString()+blogProperties.getTest2().toString();
+    public String config() {
+        return blogProperties.getTest1().toString() + blogProperties.getTest2().toString();
     }
 
     @RequestMapping("/hello")
     public String index() {
         return blogProperties.getBignumber().toString();
     }
-
 
 
 }

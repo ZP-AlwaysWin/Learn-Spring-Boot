@@ -10,12 +10,12 @@ import org.springframework.context.annotation.PropertySource;
 @PropertySource("classpath:config.properties")
 public class MyspringbootApplication {
 
-	public static void main(String[] args) {
+    public static void main(String[] args) {
 
 //		SpringApplication.run(MyspringbootApplication.class, args);
-		SpringApplication app = new SpringApplication(MyspringbootApplication.class);
-		//关闭Banner
-		app.setBannerMode(Banner.Mode.OFF);
-		app.run(args);
-	}
+        SpringApplication app = new SpringApplication(MyspringbootApplication.class);
+        //关闭Banner
+        app.setBannerMode(Banner.Mode.OFF);
+        app.run(args);
+    }
 }

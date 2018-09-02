@@ -32,27 +32,28 @@ public class ThymeleafController {
         emps.add(new Emp(7698, "BLAKE", "MANAGER", 7839, "1981-05-01", 2850.00, null, 30, "SALES"));
         emps.add(new Emp(7844, "TURNER", "SALESMAN", 7698, "1981-09-08", 1500.00, 0.00f, 30, "SALES"));
         emps.add(new Emp(7900, "JAMES", "CLERK", 7698, "1981-12-03", 950.00, null, 30, "SALES"));
-        depts.add(new Dept(10,"ACCOUNTING" , "NEW YORK"));
-        depts.add(new Dept(20,"RESEARCH" , "DALLAS"));
-        depts.add(new Dept(30,"SALES" , "CHICAGO"));
-        depts.add(new Dept(40,"OPERATIONS" , "BOSTON"));
+        depts.add(new Dept(10, "ACCOUNTING", "NEW YORK"));
+        depts.add(new Dept(20, "RESEARCH", "DALLAS"));
+        depts.add(new Dept(30, "SALES", "CHICAGO"));
+        depts.add(new Dept(40, "OPERATIONS", "BOSTON"));
 
     }
+
     @RequestMapping("/")
     public ModelAndView index(String keyword) {
         ModelAndView mav = new ModelAndView("index");
         List filter = new ArrayList();
         //没有keyword关键字时，查询全部
-        if(keyword == null || keyword.trim().equals("")){
+        if (keyword == null || keyword.trim().equals("")) {
             filter = emps;
-        }else{
-            for(Emp emp : emps){
-                if(emp.getEname().toLowerCase().indexOf(keyword.toLowerCase()) != -1){
+        } else {
+            for (Emp emp : emps) {
+                if (emp.getEname().toLowerCase().indexOf(keyword.toLowerCase()) != -1) {
                     filter.add(emp);
                 }
             }
         }
-        mav.addObject("emps" , filter);
+        mav.addObject("emps", filter);
         return mav;
     }
 }

@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 public class MyController {
     @RequestMapping("/out") //绑定到out地址
     @ResponseBody //直接向浏览器输出
-    public String out(){
+    public String out() {
 
         return "Hello AlwaysWin";
     }

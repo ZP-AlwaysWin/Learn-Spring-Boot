@@ -5,7 +5,7 @@ import org.springframework.stereotype.Service;
 
 @Service
 @Primary
-public class VideoServiceImplB implements VideoService{
+public class VideoServiceImplB implements VideoService {
 
     @Override
     public String getVideoName() {

@@ -31,7 +31,7 @@ public class UserServiceImpl implements UserService {
     }
 
     @Override
-    public void createDatabases(){
+    public void createDatabases() {
         jdbcTemplate.update("create table user (\n" +
                 "  `id` int(11) NOT NULL AUTO_INCREMENT,\n" +
                 "  `name` varchar(30) DEFAULT NULL,\n" +

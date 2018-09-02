@@ -19,14 +19,14 @@ public class MyController {
     private AppConfig appConfig;
 
     @RequestMapping("/")
-    public String index(){
+    public String index() {
         //访问index.html
         return "idx";
     }
 
     @RequestMapping("/out")
     @ResponseBody //ResponseBody注解可以帮我们将返回的对象JSON序列化
-    public Date out(Date sdate){
-        return  sdate;
+    public Date out(Date sdate) {
+        return sdate;
     }
 }

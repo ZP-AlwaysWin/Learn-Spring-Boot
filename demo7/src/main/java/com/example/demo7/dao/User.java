@@ -18,7 +18,8 @@ public class User {
     @Column(nullable = false)
     private Integer age;
 
-    public User(){}
+    public User() {
+    }
 
     public User(String name, Integer age) {
         this.name = name;
@@ -49,7 +50,6 @@ public class User {
     public void setAge(Integer age) {
         this.age = age;
     }
-
 
 
 }

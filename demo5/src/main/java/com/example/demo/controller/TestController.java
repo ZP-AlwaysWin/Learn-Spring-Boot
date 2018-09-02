@@ -15,7 +15,7 @@ public class TestController {
     private VideoService videoService;
 
     @RequestMapping("/test")
-    public String testindex(){
+    public String testindex() {
         return videoService.getVideoName();
     }
 }
