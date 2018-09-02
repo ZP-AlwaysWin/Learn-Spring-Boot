@@ -15,4 +15,5 @@ Spring pring Boot中多数据源配置(一)：JdbcTemplate版本
 </div>
 @Primary
 
+
 @Primary配置了数据源为主数据源，当没有配置自动切换的package时默认使用该数据源进行数据处理操作。
