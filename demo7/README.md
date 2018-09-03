@@ -1,5 +1,4 @@
 # Learn-Spring-Boot
-
 ## 数据访问
 Spring Boot中使用Spring-data-jps让数据访问更简单、更优雅
 
