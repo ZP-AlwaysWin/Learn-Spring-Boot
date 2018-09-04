@@ -1,4 +1,4 @@
 # Learn-Spring-Boot
 ## Web开发
 
-Spring Boot中Web应用的统一异常处理
+Spring Boot中使用Thymeleaf模版引擎渲染web视图
