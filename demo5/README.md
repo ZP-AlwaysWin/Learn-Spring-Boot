@@ -5,6 +5,7 @@
 **接口只有唯一一个实现类的注入方式**
 
 **先创建一个接口VideoService**
+
 ```
 public interface VideoService {
 
