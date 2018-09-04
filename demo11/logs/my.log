@@ -1,0 +1,7 @@
+2018-09-04 15:34:40,938  INFO Demo11ApplicationTests:48 ---- Starting Demo11ApplicationTests on greenvm-z15746v with PID 200932 (C:\Users\Administrator\Desktop\demo11\target\test-classes started by Administrator in C:\Users\Administrator\Desktop\demo11)
+2018-09-04 15:34:40,943 DEBUG Demo11ApplicationTests:51 ---- Running with Spring Boot v1.3.2.RELEASE, Spring v4.2.4.RELEASE
+2018-09-04 15:34:40,944  INFO Demo11ApplicationTests:670 ---- The following profiles are active: dev
+2018-09-04 15:34:42,421  INFO Demo11ApplicationTests:57 ---- Started Demo11ApplicationTests in 2.001 seconds (JVM running for 3.284)
+2018-09-04 15:34:42,442  INFO Demo11ApplicationTests:23 ---- 输出info
+2018-09-04 15:34:42,443 DEBUG Demo11ApplicationTests:24 ---- 输出debug
+2018-09-04 15:34:42,444 ERROR Demo11ApplicationTests:25 ---- 输出error
