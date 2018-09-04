@@ -1,0 +1,7 @@
+2018-09-04 11:43:36,540  INFO Demo10ApplicationTests:48 ---- Starting Demo10ApplicationTests on greenvm-z15746v with PID 204456 (C:\Users\Administrator\Desktop\demo10\target\test-classes started by Administrator in C:\Users\Administrator\Desktop\demo10)
+2018-09-04 11:43:36,540 DEBUG Demo10ApplicationTests:51 ---- Running with Spring Boot v1.3.2.RELEASE, Spring v4.2.4.RELEASE
+2018-09-04 11:43:36,540  INFO Demo10ApplicationTests:666 ---- No active profile set, falling back to default profiles: default
+2018-09-04 11:43:37,972  INFO Demo10ApplicationTests:57 ---- Started Demo10ApplicationTests in 1.995 seconds (JVM running for 3.22)
+2018-09-04 11:43:38,003  INFO Demo10ApplicationTests:20 ---- 输出info
+2018-09-04 11:43:38,003 DEBUG Demo10ApplicationTests:21 ---- 输出debug
+2018-09-04 11:43:38,003 ERROR Demo10ApplicationTests:22 ---- 输出error
