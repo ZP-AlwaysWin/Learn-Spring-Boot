@@ -20,7 +20,7 @@ Spring boot中使用log4j记录日志
 
 `import org.apache.log4j.Logger;`
 
-**低版本的springboot里面可以测试成功该demo9**
+**低版本的springboot里面可以测试成功该demo10**
 
 ```
 <parent>

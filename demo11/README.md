@@ -20,7 +20,7 @@ Spring boot中对log4j进行多环境不同日志级别的控制
 
 `import org.apache.log4j.Logger;`
 
-**低版本的springboot里面可以测试成功该demo9**
+**低版本的springboot里面可以测试成功该demo11**
 
 ```
 <parent>
