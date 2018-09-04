@@ -1,7 +1,7 @@
 # Learn-Spring-Boot
 
 ## 数据访问
-Spring pring Boot中多数据源配置(二)：Spring-data-jpa版本
+Spring Boot中多数据源配置(二)：Spring-data-jpa版本
 
 ## 注意事项：
 
