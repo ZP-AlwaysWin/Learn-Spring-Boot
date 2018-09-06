@@ -14,4 +14,4 @@ Spring Boot中使用@Scheduled创建定时任务
 - <font color=#00ffff size=3>@Scheduled(fixedRate = 5000)</font> ：上一次开始执行时间点之后5秒再执行
 - <font color=#00ffff size=3>@Scheduled(fixedDelay = 5000) </font>：上一次执行完毕时间点之后5秒再执行
 - <font color=#00ffff size=3>@Scheduled(initialDelay=1000, fixedRate=5000)</font> ：第一次延迟1秒后执行，之后按fixedRate的规则每5秒执行一次
-- <font color=#00ffff size=3>@Scheduled(cron="*/5 * * * * *")</font> ：通过cron表达式定义规则
+- <font color=#00ffff size=3> @Scheduled(cron="*/5 * * * * *") </font> ：通过cron表达式定义规则
