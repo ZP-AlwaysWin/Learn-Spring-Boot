@@ -1,0 +1,11 @@
+2018-09-06 10:49:56,371  INFO Demo12Application:48 ---- Starting Demo12Application on greenvm-z15746v with PID 210116 (C:\Users\Administrator\Desktop\demo12\target\classes started by Administrator in C:\Users\Administrator\Desktop\demo12)
+2018-09-06 10:49:56,371 DEBUG Demo12Application:51 ---- Running with Spring Boot v1.3.2.RELEASE, Spring v4.2.4.RELEASE
+2018-09-06 10:49:56,371  INFO Demo12Application:666 ---- No active profile set, falling back to default profiles: default
+2018-09-06 10:50:01,508  INFO Demo12Application:57 ---- Started Demo12Application in 5.534 seconds (JVM running for 6.412)
+2018-09-06 10:50:29,174  INFO WebLogAspect:37 ---- URL : http://127.0.0.1:8080/hello
+2018-09-06 10:50:29,175  INFO WebLogAspect:38 ---- HTTP_METHOD : GET
+2018-09-06 10:50:29,176  INFO WebLogAspect:39 ---- IP : 127.0.0.1
+2018-09-06 10:50:29,180  INFO WebLogAspect:40 ---- CLASS_METHOD : com.example.demo12.web.HelloController.hello
+2018-09-06 10:50:29,180  INFO WebLogAspect:41 ---- ARGS : [moons]
+2018-09-06 10:50:29,188  INFO WebLogAspect:48 ---- RESPONSE : Hello moons
+2018-09-06 10:50:29,189  INFO WebLogAspect:49 ---- SPEND TIME : 15
