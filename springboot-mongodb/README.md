@@ -6,7 +6,7 @@
 
 ## 注意事项
 
-一、`Springboot`改版之后将`findOne`更名为`findById`;但是`findById`并不仅仅是将`findOne`改名，它返回的对象变成了`Optional`。如果想让`findById`和`findOne`有同样的功能，可以用下面这个函数：
+### 一、`Springboot`改版之后将`findOne`更名为`findById`;但是`findById`并不仅仅是将`findOne`改名，它返回的对象变成了`Optional`。如果想让`findById`和`findOne`有同样的功能，可以用下面这个函数：
 
 **老版本写法：**
 
@@ -19,8 +19,8 @@
 
 
         
-二、 在`import org.springframework.data.repository.CrudRepository;`中`findById`这个方法被占用且返回值是`Optional`。
-
+### 二、 在`import org.springframework.data.repository.CrudRepository;`中`findById`这个方法被占用且返回值是`Optional`。
+**代码实例**
    
 ```$xslt
 //
@@ -60,7 +60,7 @@ public interface CrudRepository<T, ID> extends Repository<T, ID> {
 
 ```
 
-所以如果还想要使用ID查看整个User对象，那么可以把该方法名改变一下
+**所以如果还想要使用ID查看整个User对象，那么可以把该方法名改变一下**
 
 ```$xslt
 package com.example.springbootmongodb.entity;
@@ -82,7 +82,7 @@ public interface UserRepository extends MongoRepository<User, Long> {
 
 ```
 
-然后调用findByid这个方法
+**然后调用findByid这个方法**
 ```$xslt
 
 User u = userRepository.findByid(1L);
