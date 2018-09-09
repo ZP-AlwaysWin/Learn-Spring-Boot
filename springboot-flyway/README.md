@@ -1,7 +1,7 @@
 # Learn-Spring-Boot
 
 ## 数据访问
-**pring Boot中使用Flyway来管理数据库版本**
+**Spring Boot中使用Flyway来管理数据库版本**
 
 ### Flyway存在的价值
 
