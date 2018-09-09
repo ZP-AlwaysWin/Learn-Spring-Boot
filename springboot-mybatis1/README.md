@@ -116,4 +116,5 @@ public void testUserMapper() throws Exception {
 ```
 ### 后记
 本文主要介绍几种最为常用的方式，更多其他注解的使用可参见文档：
+
 http://www.mybatis.org/mybatis-3/zh/java-api.html
