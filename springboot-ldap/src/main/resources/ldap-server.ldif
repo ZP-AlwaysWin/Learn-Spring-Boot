@@ -1,0 +1,18 @@
+dn: dc=moons,dc=com
+objectClass: top
+objectClass: domain
+
+dn: ou=people,dc=moons,dc=com
+objectclass: top
+objectclass: organizationalUnit
+ou: people
+
+dn: uid=ben,ou=people,dc=moons,dc=com
+objectclass: top
+objectclass: person
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+cn: xxxx
+sn: DoubleMoons
+uid: xxxx
+userPassword: {SHA}nFCebWjxfaLbHHG1Qk5UU4trbvQ=
