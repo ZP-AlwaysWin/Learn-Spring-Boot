@@ -48,7 +48,7 @@ public enum Isolation {
 
 `SERIALIZABLE`：所有的事务依次逐个执行，这样事务之间就完全不可能产生干扰，也就是说，该级别可以防止脏读、不可重复读以及幻读。但是这将严重影响程序的性能。通常情况下也不会用到该级别。
 
-指定方法：通过使用`isolation`属性设置，例如：
+#### 指定方法：通过使用`isolation`属性设置，例如：
 
 `@Transactional(isolation = Isolation.DEFAULT)`
 
@@ -85,6 +85,6 @@ public enum Propagation {
 
 `NESTED`：如果当前存在事务，则创建一个事务作为当前事务的嵌套事务来运行；如果当前没有事务，则该取值等价于`REQUIRED`。
 
-指定方法：通过使用`propagation`属性设置，例如：
+#### 指定方法：通过使用`propagation`属性设置，例如：
 
 `@Transactional(propagation = Propagation.REQUIRED)`
