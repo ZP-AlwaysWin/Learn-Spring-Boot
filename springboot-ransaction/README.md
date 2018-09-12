@@ -18,11 +18,11 @@ spring.jpa.database-platform=org.hibernate.dialect.MySQL5InnoDBDialect
 
 ## 事务详解
 
-本文中例子我们使用了默认的事务配置，可以满足一些基本的事务需求，但是当我们项目较大较复杂时（比如，有多个数据源等），这时候需要在声明事务时，指定不同的事务管理器。对于不同数据源的事务管理配置可以见[《Spring Boot多数据源配置与使用》](demo8)中的设置。在声明事务时，只需要通过`value`属性指定配置的事务管理器名即可，例如：`@Transactional(value="transactionManagerPrimary")。`
+本文中例子我们使用了默认的事务配置，可以满足一些基本的事务需求，但是当我们项目较大较复杂时（比如，有多个数据源等），这时候需要在声明事务时，指定不同的事务管理器。对于不同数据源的事务管理配置可以见[《Spring Boot多数据源配置与使用》](https://github.com/ZP-AlwaysWin/Learn-Spring-Boot/tree/master/demo8)中的设置。在声明事务时，只需要通过`value`属性指定配置的事务管理器名即可，例如：`@Transactional(value="transactionManagerPrimary")。`
 
 除了指定不同的事务管理器之后，还能对事务进行隔离级别和传播行为的控制，下面分别详细解释：
 
-###　隔离级别
+### 隔离级别
 
 隔离级别是指若干个并发的事务之间的隔离程度，与我们开发时候主要相关的场景包括：脏读取、重复读、幻读。
 
